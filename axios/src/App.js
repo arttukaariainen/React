@@ -14,12 +14,12 @@ function App() {
     axios.get(URL)
     .then((response) => {
       //console.log(response)
-      const joke = response.data.contents.jokes[0].joke
+      const joke = response.data.contents.jokes[0].joke;
       setTitle(joke.title)
       setText(joke.text)
-    }) .catch (error => {
+    }).catch (error => {
         console.log(error)
-        alert("Retrieving jokeo f the day failed");
+        alert("Retrieving joke of the day failed");
       })
   }, [])
   
