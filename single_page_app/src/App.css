@@ -24,8 +24,8 @@ footer {
 }
 
 #header {
-  background-image: url(./banner.png);
-  height: 260px;
+  background-image: url(./banner.jpg);
+  height: 1000px;
   width: 100%;
   background-size: cover;
 }

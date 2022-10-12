@@ -15,6 +15,7 @@ function App() {
     <NavBar />
     <Header />
     <div className='container'>
+      <h3>Here you can find some good advices</h3>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
